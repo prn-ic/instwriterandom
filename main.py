@@ -2,15 +2,15 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
-from config import USERNAME, PASSWORD
+from config import USERNAME, PASSWORD, PATH
 from time import sleep
 import random
 
 class AutoWriter:
 	def __init__(self):
 		self.i = int(input('Write a count your friend: '))
-		path = 'PATH TO DRIVER'
-		service = Service(path)
+		self.message = input('Write a message: ')
+		service = Service(PATH)
 		options = webdriver.ChromeOptions()
 		self.driver = webdriver.Chrome(
 			service=service,
@@ -59,7 +59,7 @@ class AutoWriter:
 
 		message = self.driver.find_element(By.TAG_NAME, 'textarea')
 		message.clear()
-		message.send_keys('ЗДАРОВА ХУЙ МОРЖОВЫЙ БУДЕШЬ МАЙН ИГРАТЬы')
+		message.send_keys(self.message)
 		sleep(3)
 
 		send_button = self.driver.find_element(By.CSS_SELECTOR, 'div[class="             qF0y9          Igw0E     IwRSH      eGOV_         _4EzTm                                        JI_ht                                                                      "]> button[class="sqdOP yWX7d    y3zKF     "]')
