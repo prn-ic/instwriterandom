@@ -15,4 +15,4 @@ Okay, lets dude its:
 
 ![alt text](https://raw.githubusercontent.com/prn-ic/instwriterandom/master/img/thr.png)
 
-AND... It's all.
+AND... It's all. _**Goodbye**_
