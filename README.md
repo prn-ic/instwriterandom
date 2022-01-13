@@ -14,3 +14,5 @@ Okay, lets dude its:
 - Okay, when first point completed, you may just start code, and write count friends and message, which you want send
 
 ![alt text](https://raw.githubusercontent.com/prn-ic/instwriterandom/master/img/thr.png)
+
+AND... It's all.
