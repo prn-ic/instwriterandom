@@ -8,4 +8,4 @@ Today I created a code, which **write message random friends in instagram**
 Okay, lets dude its:
 
 -*For start*, we need open a config.py file, and append your _login_ and _password_
-![Image alt](https://github.com/jon/instwriterandom/raw/master/img/fst.png)
+![alt text](https://github.com/jon/instwriterandom/raw/master/img/fst.png)
